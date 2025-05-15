@@ -1,4 +1,6 @@
-const logotext = "JOHN";
+import workLogo from "./assets/images/Work_logo.png";
+
+const logotext = "JOHN YU";
 const meta = {
     title: "John Yu",
     description: "I'm John Yu, a Data Analyst and Business Intelligence professional with expertise in SQL, Python, and Tableau, currently working at Tesla",
@@ -7,13 +9,14 @@ const meta = {
 const introdata = {
     title: "I'm John Yu",
     animated: {
-        first: "I love data analysis",
-        second: "I build data solutions",
-        third: "I create business insights",
+        first: "I extract meaningful insights from complex data",
+        second: "I build tools that empower teams",
+        third: "I drive decisions with business intelligence",
     },
-    description: "Data-driven professional with experience in business intelligence, data analysis, and customer success. Skilled in SQL, Python, Tableau, and various BI tools to transform complex data into actionable insights.",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "Data-driven professional with experience in business intelligence, data analysis, sales, and customer success. Skilled in SQL, Python, Tableau, and various BI tools to transform complex data into actionable insights.",
+    your_img_url: workLogo
 };
+
 
 const dataabout = {
     title: "About Me",
@@ -59,9 +62,13 @@ const skills = [{
         value: 95,
     },
     {
-        name: "Data Analysis",
+        name: "Customer Service & Communication",
         value: 90,
     },
+    {
+        name: "Sales & Relationship Management",
+        value: 90,
+    }
 ];
 
 const services = [{
@@ -79,45 +86,39 @@ const services = [{
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "Python Project for Data Science - Financial data analysis using pandas, plotly, and BeautifulSoup",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/800/?grayscale",
+        img: "https://i.postimg.cc/0jfvBVxb/Covid19-Dashboard.png?width=300&height=300&fit=contain&bg=white",
         description: "SQL/Tableau Covid-19 Dashboard - Interactive data visualization and forecasting analysis",
-        link: "#",
+        link: "https://public.tableau.com/app/profile/john.yu5447/viz/Covid-19DashboardProject_16485950465900/Dashboard1",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "MEAN WELL USA - Price Search Tool and Power Supply Feature Search Tool development",
-        link: "#",
+        img: "https://i.postimg.cc/mZF8yPVW/Bike-Dashboard.png?width=300&height=300&fit=contain&bg=white",
+        description: "Excel Project - Bike Sales Dashboard",
+        link: "https://excel.cloud.microsoft/open/onedrive/?docId=180CE90B74AD2CD%21s7b8eae3cda7f4272846940e68a45ddee&driveId=0180CE90B74AD2CD",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "JP Morgan Chase - Tableau dashboards and data reporting solutions",
-        link: "#",
+        img: "https://i.postimg.cc/dVMR6FnH/Python-Project.png?width=300&height=300&fit=contain&bg=white",
+        description: "Python Project for Data Science - Financial data analysis using pandas, plotly, and BeautifulSoup",
+        link: "https://www.coursera.org/account/accomplishments/certificate/383LULD9834Z",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "First Republic Bank - Microsoft Access/VBA automation application",
-        link: "#",
-    },
+        img: "https://i.postimg.cc/jqZkMDJ8/GoogleDA.png?width=300&height=300&fit=contain&bg=white",
+        description: "Google Data Analytics Professional Certificate",
+        link: "https://www.coursera.org/account/accomplishments/specialization/certificate/JVUTPUJ83FJW",
+    }
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "fremontjohn@gmail.com",
+    YOUR_EMAIL: "johnyu.tech@gmail.com",
     YOUR_FONE: "(408) 204-9022",
     description: "Feel free to reach out to me for any professional opportunities or collaborations. I'm always open to discussing new projects and ideas.",
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: "service_mdm0y68",
+    YOUR_TEMPLATE_ID: "template_1b9tb4g",
+    YOUR_USER_ID: "F_VlpbEzQ98ryDPSN",
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/johnyutech/PortfolioProjects",
+    linkedin: "https://www.linkedin.com/in/jyu00/",
 };
 
 export {
