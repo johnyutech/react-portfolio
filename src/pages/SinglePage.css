@@ -1,0 +1,30 @@
+.single-page {
+  scroll-behavior: smooth;
+}
+
+.single-page section {
+  min-height: 100vh;
+  padding: 60px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Ensure each section takes up full viewport height */
+#home,
+#about,
+#portfolio,
+#contact {
+  scroll-margin-top: 60px; /* Adjust based on your header height */
+}
+
+/* Optional: Add a subtle transition between sections */
+.single-page section {
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* Optional: Add a subtle background color variation between sections */
+#home { background-color: var(--bg-color); }
+#about { background-color: var(--bg-color-secondary, var(--bg-color)); }
+#portfolio { background-color: var(--bg-color); }
+#contact { background-color: var(--bg-color-secondary, var(--bg-color)); } 
