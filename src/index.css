@@ -203,9 +203,6 @@ a {
   .hero h1 .line {
     display: inline;
   }
-  .hero h1 .line + .line::before {
-    content: " ";
-  }
 }
 
 .hero-proof {

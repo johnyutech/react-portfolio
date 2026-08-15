@@ -11,8 +11,11 @@ export default function Hero() {
         {hero.eyebrow}
       </p>
       <h1 id="hero-heading" className="display-xl">
-        {hero.headlineLines.map((line) => (
+        {hero.headlineLines.map((line, i) => (
           <span key={line} className="line" {...rise()}>
+            {/* Real whitespace, so the heading reads correctly to screen
+                readers and when copied, not just when rendered as blocks. */}
+            {i > 0 ? " " : null}
             {line}
           </span>
         ))}
