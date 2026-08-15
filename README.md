@@ -1,38 +1,27 @@
-### Description
+# John Yu · Portfolio
 
-A simple portfolio template for developer/designers built with React. 
+Single-page portfolio positioning John for Business / Sales Operations Analyst roles.
+Built with Vite + React, plain CSS on a token system, self-hosted fonts (Switzer, Geist Mono).
 
-### [live preview](https://ubaimutl.github.io/react-portfolio/)
+## Commands
 
-[![react portfoiio](src/assets/images/react%20portfolio%20gif.gif)](https://ubaimutl.github.io/react-portfolio/)
+```
+npm install       # once
+npm run dev       # local dev server
+npm run build     # production build → dist/
+npm run preview   # serve the production build locally
+```
 
-### Features
+## Content
 
-- Fully Responsive
-- Multi-Page Layout
-- Contact Form With EmailJs
-- React-Bootstrap
-- Edit Content From One Place
+All copy lives in `src/content.js`. Every claim traces to John's resume; don't add
+a figure the resume doesn't support. To add a metric to a case study later, edit
+its `outcome` string, or give it a `metric: { value, label }` to surface the number
+in the sticky rail.
 
-### Setup
+## Deploying on Vercel
 
-Get the code
-
-<pre>git clone https://github.com/ubaimutl/react-portfolio.git</pre>
- 
-Install required dependencies
-
-<pre>yarn install</pre>
-
-
-Start the server
-
-<pre>yarn start</pre>
-
-### More
-
-Modify pages content in  `src/content_option.js`.
-
-### Thanks
-
-If you like this portfolio template don't forget give it a ⭐ 
+Point the Vercel project at this directory (`john-yu-portfolio`). Framework preset:
+Vite. Build command `npm run build`, output directory `dist`. If the production
+domain is not `john-yu-portfolio.vercel.app`, update the `og:url` / `og:image` /
+`twitter:image` URLs in `index.html`.
