@@ -28,7 +28,7 @@ export const throughline = {
   heading: "The analyst who learned to sell",
   body: [
     "I started on the analytics side, building Tableau dashboards and writing Snowflake SQL at JP Morgan and First Republic. Then I moved into sales to learn how revenue actually gets made.",
-    "At Tesla I sell near the top of the leaderboard. The manual work behind that number bothered me enough to build the tooling that removes it, and then to measure what the tooling changed. A fix you can't measure isn't finished.",
+    "At Tesla I sell at the top of the leaderboard. The manual work behind that number bothered me enough to build the tooling that removes it, and then to measure what the tooling changed. A fix you can't measure isn't finished.",
     "A Business or Sales Operations Analyst role is where both halves get used at once.",
   ],
 };
