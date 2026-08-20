@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react";
 import Nav from "./components/Nav";
 import Hero from "./components/Hero";
 import ThroughLine from "./components/ThroughLine";
@@ -30,6 +31,7 @@ export default function App() {
           <p>{site.location}</p>
         </div>
       </footer>
+      <Analytics />
     </div>
   );
 }
