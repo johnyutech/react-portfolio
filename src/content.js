@@ -7,7 +7,7 @@ export const site = {
   name: "John Yu",
   title: "John Yu · Sales Operations",
   description:
-    "Top 3 of 135 Inside Sales advisors across North America in Sales Per Hour, and the person who built the automation and analysis behind the number.",
+    "Top 3 Inside Sales advisor across North America in Sales Per Hour, and the person who built the automation and analysis behind the number.",
   email: "fremontjohn@gmail.com",
   phone: "(408) 204-9022",
   location: "Fremont, CA",
@@ -19,7 +19,7 @@ export const site = {
 export const hero = {
   eyebrow: "Inside Sales Operations · Tesla · Fremont, CA",
   headlineLines: ["Nationally ranked", "seller. Builds the tools", "that make selling faster."],
-  proof: "Top 3 of 135 in Sales Per Hour · NA Inside Sales · FY2025 & 2026 YTD",
+  proof: "Top 3 in Sales Per Hour · NA Inside Sales · FY2025 & 2026 YTD",
   sub: "I'm John Yu. I carry a quota at Tesla, build the automation that removes the manual parts of the job, and measure what it changes.",
 };
 
@@ -28,8 +28,8 @@ export const throughline = {
   heading: "The analyst who learned to sell",
   body: [
     "I started on the analytics side, building Tableau dashboards and writing Snowflake SQL at JP Morgan and First Republic. Then I moved into sales to learn how revenue actually gets made.",
-    "At Tesla I sell at the top of the leaderboard. The manual work behind that number bothered me enough to build the tooling that removes it, and then to measure what the tooling changed. A fix you can't measure isn't finished.",
-    "A Business or Sales Operations Analyst role is where both halves get used at once.",
+    "At Tesla I sell at the top of the leaderboard. The manual work behind that number bothered me enough to build the tooling that removes it, and then to measure what the tooling changed. A fix you can't measure isn't finished. Then I rolled it out. The prompt library I built for my own team ended up adopted by delivery, demo drive, support, and operations.",
+    "A Business Operations, Sales Operations, or Project Management role is where all three get used at once.",
   ],
 };
 
@@ -72,11 +72,11 @@ export const caseStudies = [
     problem:
       "An internal computer-vision tool could take real work off people's plates, but only with prompts fitted to each team's workflow.",
     built:
-      "Developed and iterated the prompt library for the internal tool and led its enablement across the NA Inside Sales org. The delivery, demo drive, customer support, and finance teams all adopted it.",
+      "Developed and iterated the prompt library for the internal tool and led its enablement across the NA Inside Sales org. The delivery, demo drive, customer support, and operations teams all adopted it.",
     outcome:
       "10+ hours per week saved across 135+ users. Awarded AI Trailblazer (Q2 2026) for the highest measured workflow impact in the org.",
     analyst:
-      "Adoption followed measurement. The case for rolling it out across delivery, demo drive, support, and finance was a quantified hours-saved figure, not a demo.",
+      "Adoption followed measurement. The case for rolling it out across delivery, demo drive, support, and operations was a quantified hours-saved figure, not a demo.",
     stack: ["LLM tooling", "Prompt development", "Computer vision (internal)"],
   },
 ];
@@ -87,7 +87,7 @@ export const experience = [
     role: "Inside Sales Operations Advisor",
     dates: "Feb 2025 - Present",
     bullets: [
-      "Ranked top 3 of 135 NA Inside Sales advisors in Sales Per Hour for FY2025 and 2026 YTD, managing a high-volume B2C pipeline.",
+      "Ranked top 3 among NA Inside Sales advisors in Sales Per Hour for FY2025 and 2026 YTD, managing a high-volume B2C pipeline.",
       "Expanded into Fleet B2B account management, owning corporate relationships end to end.",
       "Built the re-engagement analysis, outreach automation, and AI enablement work above.",
     ],
