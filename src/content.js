@@ -20,7 +20,7 @@ export const hero = {
   eyebrow: "Inside Sales Operations · Tesla · Fremont, CA",
   headlineLines: ["Nationally ranked", "seller. Builds the tools", "that make selling faster."],
   proof: "Top 3 in Sales Per Hour · NA Inside Sales · FY2025 & 2026 YTD",
-  sub: "I'm John Yu. I carry a quota at Tesla, build the automation that removes the manual parts of the job, and measure what it changes.",
+  sub: "I'm John Yu, a Senior Advisor in Inside Sales Operations at Tesla. I carry a quota, build the automation that removes the manual parts of the job, and measure what it changes.",
 };
 
 export const throughline = {
@@ -84,8 +84,14 @@ export const caseStudies = [
 export const experience = [
   {
     company: "Tesla",
-    role: "Inside Sales Operations Advisor",
+    role: "Senior Inside Sales Operations Advisor",
     dates: "Feb 2025 - Present",
+    promotion: "Promoted to Senior Advisor in Nov 2026 (Advisor, Feb 2025 - Nov 2026)",
+    awards: [
+      "2026 · Impact of the Year",
+      "Q2 2026 · AI Trailblazer Award",
+      "FY2025 & 2026 · Top 3 in Sales Per Hour",
+    ],
     bullets: [
       "Ranked top 3 among NA Inside Sales advisors in Sales Per Hour for FY2025 and 2026 YTD, managing a high-volume B2C pipeline.",
       "Expanded into Fleet B2B account management, owning corporate relationships end to end.",

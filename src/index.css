@@ -493,6 +493,19 @@ a {
   background: var(--slate);
 }
 
+.xp-promotion {
+  font-family: var(--font-mono);
+  font-size: var(--text-caption);
+  color: var(--slate);
+  margin-top: var(--sp-2);
+}
+
+.xp-awards {
+  margin-top: var(--sp-6);
+  display: grid;
+  gap: var(--sp-2);
+}
+
 .xp-education {
   margin-top: var(--sp-8);
   padding-top: var(--sp-6);
