@@ -17,17 +17,17 @@ export const site = {
 };
 
 export const hero = {
-  eyebrow: "Inside Sales Operations · Tesla · Fremont, CA",
+  eyebrow: "Inside Sales · Tesla · Fremont, CA",
   headlineLines: ["Nationally ranked", "seller. Builds the tools", "that make selling faster."],
   proof: "Top 3 in Sales Per Hour · NA Inside Sales · FY2025 & 2026 YTD",
-  sub: "I'm John Yu, a Senior Advisor in Inside Sales Operations at Tesla. I carry a quota, build the automation that removes the manual parts of the job, and measure what it changes.",
+  sub: "I'm John Yu, a Senior Inside Sales Advisor at Tesla. I carry a quota, build the automation that removes the manual parts of the job, and measure what it changes.",
 };
 
 export const throughline = {
   eyebrow: "Background",
   heading: "The analyst who learned to sell",
   body: [
-    "I started on the analytics side, building Tableau dashboards and writing Snowflake SQL at JP Morgan and First Republic. Then I moved into sales to learn how revenue actually gets made.",
+    "I started on the analytics side, building Tableau dashboards and writing Snowflake SQL at JPMorgan Chase and First Republic Bank. Then I moved into sales to learn how revenue actually gets made.",
     "At Tesla I sell at the top of the leaderboard. The manual work behind that number bothered me enough to build the tooling that removes it, and then to measure what the tooling changed. A fix you can't measure isn't finished. Then I rolled it out. The prompt library I built for my own team ended up adopted by delivery, demo drive, support, and operations.",
     "A Business Operations, Sales Operations, or Project Management role is where all three get used at once.",
   ],
@@ -84,9 +84,9 @@ export const caseStudies = [
 export const experience = [
   {
     company: "Tesla",
-    role: "Senior Inside Sales Operations Advisor",
+    role: "Senior Inside Sales Advisor",
     dates: "Feb 2025 - Present",
-    promotion: "Promoted to Senior Advisor in Nov 2026 (Advisor, Feb 2025 - Nov 2026)",
+    promotion: "Promoted Nov 2026 · Inside Sales Advisor, Feb 2025 - Nov 2026",
     awards: [
       "2026 · Impact of the Year",
       "Q2 2026 · AI Trailblazer Award",
@@ -108,9 +108,9 @@ export const experience = [
     ],
   },
   {
-    company: "JP Morgan Chase",
+    company: "JPMorgan Chase & Co. · Contract",
     role: "Support Analyst",
-    dates: "July 2023 - July 2024",
+    dates: "Jul 2023 - Jul 2024",
     bullets: [
       "Designed and managed 10+ Tableau dashboards integrating diverse sources through pass-through SQL to Snowflake and MS SQL Server.",
       "Handled recurring and ad-hoc reporting in Snowflake SQL using CTEs, temp tables, subqueries, conditional aggregation, window functions, and joins.",
@@ -119,7 +119,7 @@ export const experience = [
   {
     company: "First Republic Bank",
     role: "Support Analyst",
-    dates: "Oct 2022 - June 2023",
+    dates: "Oct 2022 - Jul 2023",
     bullets: [
       "Engineered a Microsoft Access/VBA application automating the daily Excel data refresh via Snowflake pass-through queries on a Python-based scheduler.",
       "Managed ad-hoc data requests end to end, from Snowflake extraction through pivot-table analysis.",
@@ -128,7 +128,7 @@ export const experience = [
 ];
 
 export const education =
-  "University of California, Riverside · Business Administration: Information Systems · Major GPA 3.8";
+  "University of California, Riverside · B.S., Business Information Systems · 2018 - 2022 · Major GPA 3.8 · Google Data Analytics Professional Certificate (2023)";
 
 export const skills = [
   {
